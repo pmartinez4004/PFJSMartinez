@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "nombre": "2/11 PUEBLO ESCONDIDO",
+      "precio": 90000,
+      "img": "../img/sierrassur5.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "9/11 QUEBRADA DEL SINGURIENTE",
+      "precio": 75000,
+      "img": "../img/sierrascentro5.webp"
+    },
+    {
+      "id": 3,
+      "nombre": "16/11 SENDEROS DE COPACABANA",
+      "precio": 65000,
+      "img": "../img/sierrasnorte5.webp"
+    },
+    {
+      "id": 4,
+      "nombre": "23/11 VALLE DE LOS LISOS",
+      "precio": 75000,
+      "img": "../img/s1.png"
+    },
+    {
+      "id": 5,
+      "nombre": "30/11 LAGOS DE CALAMUCHITA",
+      "precio": 55000,
+      "img": "../img/s2.png"
+    },
+    {
+      "id": 6,
+      "nombre": "4/12 ARROYOS SIERRAS CHICAS",
+      "precio": 30000,
+      "img": "../img/s7.png"
+    },
+    {
+      "id": 7,
+      "nombre": "7/12 RIOS DE PARAVACHASCA",
+      "precio": 50000,
+      "img": "../img/s3.png"
+    },
+    {
+      "id": 8,
+      "nombre": "14/12 PARQUE NAC CONDORITO",
+      "precio": 60000,
+      "img": "../img/s4.png"
+    },
+    {
+      "id": 9,
+      "nombre": "21/12 CASCADAS DE PUNILLA",
+      "precio": 50000,
+      "img": "../img/s8.png"
+    },
+    {
+      "id": 10,
+      "nombre": "28/12 VOLCANES DE POCHO",
+      "precio": 95000,
+      "img": "../img/s9.png"
+    },
+    {
+      "id": 11,
+      "nombre": "4/1 LAGOS SIERRAS CHICAS",
+      "precio": 40000,
+      "img": "../img/s10.png"
+    },
+    {
+      "id": 12,
+      "nombre": "11/1 CERRO COLORADO",
+      "precio": 85000,
+      "img": "../img/s11.png"
+    }
+  ]

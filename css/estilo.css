@@ -1,0 +1,737 @@
+@charset "UTF-8";
+
+.contenedorGenerico,
+.contenedorNosotros,
+.contenedorCalendario {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F3F3F3;
+  font-family: "Nunito Sans";
+}
+
+header {
+  border-bottom: 1px solid black;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  font-family: "Nunito Sans";
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.bannerSuperior {
+  width: 100%;
+}
+
+.banner1 {
+  position: relative;
+}
+
+.tituloBanner {
+  size: 40px;
+  color: rgb(8, 114, 16);
+  position: absolute;
+  top: 5%;
+  left: 0;
+  width: 100%;
+}
+
+.textoBanner {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 18px;
+  padding: 4px;
+}
+
+/* Destinos */
+.mapa {
+  width: 100%;
+  height: 100%;
+}
+
+.tarjeta {
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  padding: 10px;
+}
+
+.tituloDestinos {
+  margin-top: 80px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: rgb(8, 114, 16);
+}
+
+.textoDestinos {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.textoRegion {
+  justify-content: start;
+  text-align: center;
+  background-color: darkslategrey;
+  color: azure;
+  position: absolute;
+  top: 7%;
+  left: 15%;
+  transform: translate(-20%, -10%);
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 93%;
+  border-radius: 10px;
+}
+
+.vinculo {
+  align-self: center;
+  background-color: darkslategrey;
+  color: azure;
+  margin: 20px;
+}
+
+.vinculo a {
+  text-decoration: none;
+  color: azure;
+  text-align: center;
+}
+
+footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  text-align: center;
+  border-top: 1px solid black;
+  font-family: "Nunito Sans";
+}
+
+footer h3 {
+  font-size: 16px;
+}
+
+/* calendario */
+.mainCalendario {
+  margin: 60px;
+}
+
+.encabezadoCalendario h1,
+h2 {
+  color: rgb(8, 114, 16);
+}
+
+.encabezadoCalendario h1 {
+  margin: 4vh;
+}
+
+.contenedorCalendario {
+  justify-content: center;
+  margin: 1vh;
+}
+
+.precio {
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 1vh;
+}
+
+.productoAgregar {
+  border: none;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #da9227;
+  color: whitesmoke;
+
+}
+
+.indicadorCarrito {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  background-color: rgb(212, 11, 71);
+  border-radius: 50%;
+  color: white;
+}
+
+.tarjetaCalendario {
+  max-width: 280px;
+  justify-content: stretch;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  border-radius: 10px;
+  flex-grow: 1;
+  position: relative;
+  text-align: center;
+}
+
+.fechaCal {
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  transform: translate(-25%, -10%);
+  margin: 5px 0;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: orange;
+  color: black;
+  padding: 3px;
+
+}
+
+.descripCal {
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  transform: translate(-5%, -5%);
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: darkslategrey;
+  color: azure;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.imagenCalendario {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* galeria */
+.encabezadoGaleria {
+  margin: 20px 0px;
+  color: rgb(8, 114, 16);
+}
+
+.contenedorGaleria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.tarjetaGaleria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(218, 211, 211);
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+
+.tarjetaGaleria img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.baseGaleria {
+  margin: 1px 60px;
+}
+
+/* contacto */
+.botonFormulario {
+  background-color: darkslategrey;
+  color: azure;
+}
+
+.tituloContacto {
+  margin: 25px;
+  color: rgb(8, 114, 16);
+}
+
+.itemContacto h2 {
+  margin-top: 25px;
+}
+
+.imgContacto {
+  width: 370px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-active-bg: darkslategrey;
+  --bs-accordion-active-color: #ccc;
+}
+
+/* nosotros */
+.encabezadoNosotros {
+  margin: 20px;
+  color: rgb(8, 114, 16);
+}
+
+.contenedorNosotros {
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.tarjetaNosotros {
+  align-items: center;
+  margin: 15px 0px;
+}
+
+.tarjetaNosotros p {
+  text-align: center;
+}
+
+.grupoEleccion {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.contenedorRazonesEleccion p {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.tarjetaEleccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+
+.imgElegirnos {
+  width: 75px;
+  height: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Carrito */
+
+.contenedorMainCarrito {
+  margin: 30px;
+  padding: 16px 32px;
+  border-radius: 15px;
+  background-color: #fff;
+  
+}
+.contenedorMainCarrito h1{
+color:rgb(8, 114, 16)
+}
+
+.contenedorElemento {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #6e6d6b;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+
+  * {
+    flex: 1 1 auto;
+  }
+}
+
+.encabezadoCarrito {
+  display: grid;
+  grid-template-columns: 54% 15% 14% 8% 10%;
+  font-weight: bold;
+}
+
+.encabezadoLista {
+  font-size: 22px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.productoEliminar {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.productoIncrementar {
+  padding: 2px;
+  border: none;
+  background: #f3a422;
+  flex: 1 1 0;
+}
+
+.productoDecrementar {
+  padding: 0;
+  border: none;
+  background: #00FF00;
+  flex: 1 1 0;
+}
+
+.colCant {
+  justify-content: space-around;
+  text-align: center;
+  background: #bebec0;
+  flex: 2 2 0;
+}
+
+.colCantResumen {
+  justify-content: space-around;
+  text-align: center;
+  background: none;
+  flex: 2 2 0;
+}
+
+.colSubtotal {
+  text-align: right;
+}
+
+.totalCarrito {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 20px;
+}
+
+.importeTot {
+  display: flex;
+  text-align: center;
+}
+
+.contenedorCarrito {
+  font-size: 16px;
+}
+
+
+/* Resumen */
+
+.buyInformation__form {
+  padding: 1em 2em;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.buyInformation__form form {
+  margin: 1.5em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+}
+
+.buyInformation__form form .form-input {
+  width: 99%;
+  height: 45px;
+  padding: 0;
+  font-size: 1em;
+  outline: none;
+  border: 1px #9b9b9b solid;
+  padding-left: 10px;
+}
+
+.buyInformation__form form .form-input.focus {
+  border: 1px solid #7f00b2;
+}
+
+.buyInformation__form form .form-input.invalid {
+  border: 2px solid #ff4719;
+}
+
+.buyInformation__form form .form-element-multiple {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buyInformation__form form .form-element-multiple input {
+  width: 50%;
+}
+
+.buyInformation__form form .form-check {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  color: black
+}
+
+.buyInformation__form form .form-check .buyInformation__form form .form-check label {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.buyInformation {
+  font-size: 14px;
+  margin: 25px 0;
+  display: grid;
+  grid-template-columns: 50% 40%;
+  gap: 40px;
+  justify-content: center;
+}
+
+.contenedor-resumen-carrito-lateral {
+  padding: 16px 32px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.totalResumenCarrito {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(8, 114, 16);
+}
+
+.importeTotResumen {
+  display: flex;
+  text-align: center;
+}
+
+.encabezadoResumenGaleria h1 {
+  color: rgb(8, 114, 16);
+}
+
+.encabezadoResumenCarrito {
+  display: grid;
+  font-size: 12px;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 58% 15% 15% 15%;
+  margin-top: 10px;
+}
+
+.buyInformation__form {
+  padding: 15px 30px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.buyInformation__form form {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.buyInformation__form form .form-input {
+  width: 100%;
+  height: 45px;
+  padding: 0;
+  font-size: 16px;
+  outline: none;
+  border: 1px #9b9b9b solid;
+  padding-left: 10px;
+  transition: 1s all ease;
+}
+
+.buyInformation__form form .form-input.focus {
+  border: 1px solid #0fb200;
+}
+
+.buyInformation__form form .form-input.invalid {
+  border: 2px solid #ff4719;
+}
+
+.buyInformation__form form .form-element-multiple {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buyInformation__form form .form-element-multiple input {
+  width: 46%;
+}
+
+.buyInformation__form form .form-check {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+}
+
+.buyInformation__form form .form-check label {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.radio1 {
+  accent-color: rgb(8, 114, 16);
+}
+
+.botonesCarrito {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 10%;
+}
+
+.completarPedido {
+  display: inline-block;
+  padding: 6px 6px;
+  text-align: center;
+  vertical-align: middle;
+  background-color:rgb(8, 114, 16);
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.borrarCarrito {
+  display: inline-block;
+  padding: 6px 6px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgb(8, 114, 16);
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+}
+
+@media (max-width: 1023px) {
+
+  /* Galeria */
+  .contenedorGaleria {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 20px;
+    gap: 15px;
+  }
+
+  /* Nosotros */
+  .grupoEleccion {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Vista móvil*/
+@media (max-width: 420px) {
+
+  /* Banner */
+  .textBanner {
+    font-size: 12;
+  }
+
+  /* Galeria */
+  .contenedorGaleria {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grupoEleccion {
+    grid-template-columns: 1fr;
+  }
+
+  .contenedorNosotros {
+    margin: 20px;
+  }
+
+  /* Carrito */
+
+  .contenedorMainCarrito,
+  .encabezadoCarrito {
+    margin: 2px;
+    font-size: 9px;
+    padding: 5px 5px;
+    grid-template-columns: 55% 12% 12% 12% 10%;
+  }
+  .totalCarrito {
+    font-size: 16px;
+  }
+  
+  /* Resumen */
+  .buyInformation {
+    grid-template-columns: 100%;
+    margin: 6px;
+    font-size: 9px;
+    
+  }
+
+  .encabezadoResumenCarrito {
+    font-size: 10px;
+  }
+
+  .contenedorElemento {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 800px) {
+
+  /* Carrito */
+  .contenedorMainCarrito,
+  .encabezadoCarrito {
+    margin: 10px;
+    font-size: 10px;
+    
+  }
+
+  /* Resumen */
+  .buyInformation {
+    grid-template-columns: 100%;
+    margin: 6px;
+    font-size: 10px;
+  }
+
+  .encabezadoResumenCarrito {
+    font-size: 10px;
+  }
+
+  .contenedorElemento {
+    font-size: 12px;
+  }
+
+}
