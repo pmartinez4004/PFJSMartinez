@@ -142,4 +142,4 @@ if (cartProducts) {
     cartProducts = []
 }
 
-fetchData("/db/data.json") // Lee datos de json
+fetchData("../db/data.json") // Lee datos de json
